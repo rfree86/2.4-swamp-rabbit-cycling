@@ -1,2 +1,126 @@
-body {
-  background-color: green; }
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
+  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
+  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
+  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
+  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1040px;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -1; }
+
+.container {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.header,
+.slogan,
+.image-list,
+.events,
+.contact,
+.footer {
+  float: left;
+  display: block;
+  margin-right: 1.0831%;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: grey;
+  position: relative; }
+  .header:last-child,
+  .slogan:last-child,
+  .image-list:last-child,
+  .events:last-child,
+  .contact:last-child,
+  .footer:last-child {
+    margin-right: 0; }
+
+ul {
+  list-style: none;
+  padding: 0px; }
+
+.header-logo {
+  text-align: center; }
+
+.logo {
+  float: left;
+  display: block;
+  margin-right: 1.0831%;
+  width: 32.61127%;
+  margin-left: 25.27078%;
+  height: 150px;
+  width: 200px; }
+  .logo:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 480px) {
+    .logo {
+      /*@include span-columns(5 of 12);
+     @include shift(4);*/
+      text-align: center;
+      height: 200px;
+      width: 250px; } }
+
+.SRC-header {
+  float: left;
+  display: block;
+  margin-right: 1.0831%;
+  width: 100%;
+  text-align: center; }
+  .SRC-header:last-child {
+    margin-right: 0; }
+
+.slogan {
+  text-align: center; }
+
+.images {
+  display: block; }
+
+.image {
+  float: left;
+  display: block;
+  margin-right: 1.0831%;
+  width: 100%;
+  display: inline-block;
+  text-align: center; }
+  .image:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 480px) {
+    .image {
+      float: left;
+      display: block;
+      margin-right: 1.0831%;
+      width: 32.61127%;
+      overflow: hidden;
+      vertical-align: middle; }
+      .image:last-child {
+        margin-right: 0; } }
+
+.events {
+  display: none; }
+
+.contact {
+  text-align: center; }
+
+.footer {
+  text-align: center; }

@@ -1,3 +1,77 @@
-body{
-  background-color: green;
+@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+$visual-grid: true;
+$gutter: em(10) !global;
+$max-width: 1040px !global;
+@import '../bower_components/neat/app/assets/stylesheets/neat';
+$mobile: new-breakpoint(min-width 480px);
+
+
+///////////////////////////////////////////////
+//////////////////////////////////////////////
+.container{
+  @include outer-container;
+  margin: 0 auto;
+}
+.header,
+.slogan,
+.image-list,
+.events,
+.contact,
+.footer{
+  @include span-columns(12);
+  margin-bottom: 15px;
+  background-color: grey;
+  position: relative;
+}
+ul{
+  list-style: none;
+  padding: 0px;
+}
+
+.header-logo{
+  text-align: center;
+}
+.logo{
+  @include span-columns(4 of 12);
+  @include shift(3);
+  height: 150px;
+  width: 200px;
+
+  @include media($mobile) {
+     /*@include span-columns(5 of 12);
+     @include shift(4);*/
+     text-align: center;
+    height:200px;
+    width: 250px;
+}
+}
+.SRC-header{
+@include span-columns(12 of 12);
+text-align: center;
+}
+.slogan{
+  text-align: center;
+}
+.images{
+  display: block;
+}
+.image{
+  @include span-columns(12 of 12);
+  display: inline-block;
+  text-align: center;
+
+  @include media($mobile) {
+     @include span-columns(4 of 12);
+     overflow: hidden;
+     vertical-align: middle;
+}
+}
+.events{
+  display: none;
+}
+.contact{
+  text-align: center;
+}
+.footer{
+  text-align: center;
 }
