@@ -6,30 +6,28 @@ html {
 *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 7.34049%, transparent 7.34049%, transparent 8.42359%, #eee 8.42359%, #eee 15.76408%, transparent 15.76408%, transparent 16.84718%, #eee 16.84718%, #eee 24.18767%, transparent 24.18767%, transparent 25.27078%, #eee 25.27078%, #eee 32.61127%, transparent 32.61127%, transparent 33.69437%, #eee 33.69437%, #eee 41.03486%, transparent 41.03486%, transparent 42.11796%, #eee 42.11796%, #eee 49.45845%, transparent 49.45845%, transparent 50.54155%, #eee 50.54155%, #eee 57.88204%, transparent 57.88204%, transparent 58.96514%, #eee 58.96514%, #eee 66.30563%, transparent 66.30563%, transparent 67.38873%, #eee 67.38873%, #eee 74.72922%, transparent 74.72922%, transparent 75.81233%, #eee 75.81233%, #eee 83.15282%, transparent 83.15282%, transparent 84.23592%, #eee 84.23592%, #eee 91.57641%, transparent 91.57641%, transparent 92.65951%, #eee 92.65951%, #eee 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 1040px;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
+body {
+  background-image: url(http://www.splotchy.com/images/blog/solitude/20090628_saltcreek01.jpg);
+  background-size: cover; }
+  body::after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: .4;
+    z-index: -1; }
 
 .container {
   max-width: 1040px;
   margin-left: auto;
   margin-right: auto;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 62.5%;
+  font-family: "Roboto","Open Sans",sans-serif; }
   .container::after {
     clear: both;
     content: "";
@@ -46,8 +44,8 @@ body:before {
   margin-right: 1.0831%;
   width: 100%;
   margin-bottom: 15px;
-  background-color: grey;
-  position: relative; }
+  position: relative;
+  color: white; }
   .header:last-child,
   .slogan:last-child,
   .image-list:last-child,
@@ -60,8 +58,14 @@ ul {
   list-style: none;
   padding: 0px; }
 
-.header-logo {
-  text-align: center; }
+.header-logo::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+@media screen and (min-width: mobile) {
+  .header-logo {
+    padding-left: 0.625em; } }
 
 .logo {
   float: left;
@@ -70,31 +74,49 @@ ul {
   width: 32.61127%;
   margin-left: 25.27078%;
   height: 150px;
-  width: 200px; }
+  width: 200px;
+  background-color: lightgrey;
+  border-radius: 25%;
+  border: 4px solid white; }
   .logo:last-child {
     margin-right: 0; }
   @media screen and (min-width: 480px) {
     .logo {
-      /*@include span-columns(5 of 12);
-     @include shift(4);*/
+      float: left;
+      display: block;
+      margin-right: 1.0831%;
+      width: 41.03486%;
+      margin-left: 37.90616%;
       text-align: center;
       height: 200px;
-      width: 250px; } }
+      width: 250px;
+      padding-left: 0.9375em; }
+      .logo:last-child {
+        margin-right: 0; } }
 
 .SRC-header {
   float: left;
   display: block;
   margin-right: 1.0831%;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  font-size: 5em;
+  font-family: "Poiret One";
+  border-bottom: 4px solid lightgrey; }
   .SRC-header:last-child {
     margin-right: 0; }
 
 .slogan {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.875em;
+  font-family: "Poiret One"; }
 
-.images {
+.image-list {
   display: block; }
+  .image-list::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .image {
   float: left;
@@ -102,7 +124,10 @@ ul {
   margin-right: 1.0831%;
   width: 100%;
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+  height: 266px;
+  position: relative;
+  border: 2px solid lightgrey; }
   .image:last-child {
     margin-right: 0; }
   @media screen and (min-width: 480px) {
@@ -116,11 +141,31 @@ ul {
       .image:last-child {
         margin-right: 0; } }
 
+.image-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  min-height: 270px; }
+
 .events {
-  display: none; }
+  display: none;
+  font-size: 1.5625em;
+  font-family: "Poiret One"; }
+  @media screen and (min-width: 480px) {
+    .events {
+      display: block;
+      text-align: center; } }
 
 .contact {
-  text-align: center; }
+  text-align: center;
+  font-size: 1.25em; }
+
+.number,
+.email {
+  font-size: 1.5625em; }
 
 .footer {
-  text-align: center; }
+  text-align: center;
+  border-bottom: 3px solid lightgrey; }
